@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["staticlib", "lib"]
 
 [dependencies]
-savvy = "*"
+savvy = "=0.8.10-rc.1"
 
 [profile.release]
 # By default, on release build, savvy terminates the R session when a panic
